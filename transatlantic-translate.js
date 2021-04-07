@@ -1,4 +1,4 @@
-
+//Javascript for transatlantic-translate
 $(document).ready(function(){
     $('#menu').click(function(){
         alert('clicked');
