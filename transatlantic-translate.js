@@ -182,7 +182,10 @@ $(document).ready(function(){
                         noCapsCurrentWord = noCapsCurrentWord.slice(0, -1);
                         minusE = 1;
                     }
-                } else if(lastThree == 'ing'){ // -ING
+                } else if(lastFour == 'less'){ // -LESS
+                    currentWord = currentWord.slice(0, -4);
+                    noCapsCurrentWord = noCapsCurrentWord.slice(0, -4);
+                }else if(lastThree == 'ing'){ // -ING
                     currentWord = currentWord.slice(0, -3); 
                     noCapsCurrentWord = noCapsCurrentWord.slice(0, -3);
                         if(keywords.includes(noCapsCurrentWord)){
